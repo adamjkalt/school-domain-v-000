@@ -21,7 +21,7 @@ def add_student(student, grade)
   end
 
   def sort
-    roster.each do |grades, students|
+    roster.collect do |grades, students|
       students.sort
     end
   end
