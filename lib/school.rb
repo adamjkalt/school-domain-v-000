@@ -22,6 +22,7 @@ def add_student(student, grade)
 
   def sort
     @roster.sort
+  end
 end
 
 
