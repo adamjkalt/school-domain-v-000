@@ -21,9 +21,11 @@ def add_student(student, grade)
   end
 
   def sort
+    sorted_roster = {}
     roster.each do |grades, students|
-      students.sort
+      sorted roster << students.sort
     end
+    sorted_roster
   end
 end
 
